@@ -1,25 +1,25 @@
 # DataPickerCal-for-Solar2D
 DataPickerCal for Solar2D
-Stworzyłem widget o nazwie jak powyżej. W Solar2D brakuje narzędzia do wybierania daty więc teraz już jest. Ktoś gdzieś stworzył widget do wybierania daty na podstawie PickerWheel. Też jest fajny ale mój jest w wersji kalendarza. Udostępniam swoje wypociny całemu światu i mam nadzieję że ktoś skorzysta. Już się cieszę że mogę pomóc. Kod jest na licencji otwartej więc można go usprawniać proszę tylko aby nie usuwać komentarza z pliku.
-Jak zacząć:
-W swoim projekcie umieść plik o nazwie „datapickerkal.lua”
-W pliku gdzie budujesz swój program np. „main.lua” musisz załadować powyższy plik przez require 
-local TwojaZmienna = require(„datapickerkal”)
-Wywołanie to:
-local TwojaZmienna2 = TwojaZmienna.Moje.nowyDataPicker( {
-			year = 2023,
-			month = 5,
-			day = 21,
-			x = display.contentCenterX,
-			y = 200,
-			width = 130,
-			height = 60,
-			rounded = 15,
-			label = "CośTam", -- or data
-			labelColorDefault = { 0, 0, 0.7, 1 },
-			labelColorOver = { 0, 0.2, 0.85, 1 },
-			font = native.systemFontBold,
-			fontSize = 20,
+Stworzyłem widget o nazwie jak powyżej. W Solar2D brakuje narzędzia do wybierania daty więc teraz już jest. Ktoś gdzieś stworzył widget do wybierania daty na podstawie PickerWheel. Też jest fajny ale mój jest w wersji kalendarza. Udostępniam swoje wypociny całemu światu i mam nadzieję że ktoś skorzysta. Już się cieszę że mogę pomóc. Kod jest na licencji otwartej więc można go usprawniać proszę tylko aby nie usuwać komentarza z pliku.\n
+Jak zacząć:\n
+W swoim projekcie umieść plik o nazwie „datapickerkal.lua”\n
+W pliku gdzie budujesz swój program np. „main.lua” musisz załadować powyższy plik przez require\n 
+local TwojaZmienna = require(„datapickerkal”)\n
+Wywołanie to:\n
+local TwojaZmienna2 = TwojaZmienna.Moje.nowyDataPicker( {\n
+			year = 2023,\n
+			month = 5,\n
+			day = 21,\n
+			x = display.contentCenterX,\n
+			y = 200,\n
+			width = 130,\n
+			height = 60,\n
+			rounded = 15,\n
+			label = "CośTam", -- or data\n
+			labelColorDefault = { 0, 0, 0.7, 1 },\n
+			labelColorOver = { 0, 0.2, 0.85, 1 },\n
+			font = native.systemFontBold,\n
+			fontSize = 20,\n
 			strokeWidth = 4,
 			strokeColorDefault = { 
 				type = "gradient", 
