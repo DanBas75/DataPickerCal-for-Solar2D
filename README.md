@@ -1,5 +1,5 @@
 # DataPickerCal-for-Solar2D
-DataPickerCal for Solar2D  return
+DataPickerCal for Solar2D</br>
 Stworzyłem widget o nazwie jak powyżej. W Solar2D brakuje narzędzia do wybierania daty więc teraz już jest. Ktoś gdzieś stworzył widget do wybierania daty na podstawie PickerWheel. Też jest fajny ale mój jest w wersji kalendarza. Udostępniam swoje wypociny całemu światu i mam nadzieję że ktoś skorzysta. Już się cieszę że mogę pomóc. Kod jest na licencji otwartej więc można go usprawniać proszę tylko aby nie usuwać komentarza z pliku.\n
 Jak zacząć:\n
 W swoim projekcie umieść plik o nazwie „datapickerkal.lua”\n
